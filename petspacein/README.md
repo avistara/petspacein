@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+1. Single page layout structure with navbar
+2. content, buttons, footers
+3. setup online booking system (page link)
+4. integrate it with existing calendar
+5. integrate payment/billing systems into system
+6. integrate owner update videos/info (now using whatsapp)
 
-## Getting Started
+navbar top on big screen, top right button into expand on mobile
 
-First, run the development server:
+single color
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+navbar links same as new wixsite
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+initial contact us element
+ 
+content mostly from new wixsite, some from old site
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+try to keep the cute theme, look for icon packages for buttons
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+components: mantine
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+navbar: header with menus
+footer: footer with social icons
+grids, buttons
+page sections can take from here too
+FAQ
+can use contact section for logins, 

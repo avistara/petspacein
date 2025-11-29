@@ -1,22 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --pst-bg: 27 47% 85%;
+  --pst-highlight: 32 45% 70%;
+
+  --pst-brown-base: 26 40% 46%;
+  --pst-brown-dark1: 26 42% 38%;
+  --pst-brown-dark2: 25 46% 30%;
+  --pst-brown-dark3: 24 50% 22%;
+
+  --pst-border: 27 28% 70%;
+  --pst-shadow: 27 25% 55%;
+
+  --background: hsl(var(--pst-bg));
+  --foreground: hsl(var(--pst-brown-dark3));
+  --highlight: hsl(var(--pst-highlight));
+  --border: hsl(var(--pst-border));
+  --shadow: hsl(var(--pst-shadow));
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-highlight: var(--highlight);
+  --color-border: var(--border);
+  --color-shadow: var(--shadow);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
