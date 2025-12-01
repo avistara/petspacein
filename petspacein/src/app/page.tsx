@@ -10,14 +10,16 @@ import WhyPetspace from "@/components/sections/WhyPetspace";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-black">
+    <div className="min-h-screen">
       <Navbar />
+      <Hero />
       <main className="mx-auto flex max-w-5xl flex-col gap-12 px-6 py-12">
-        <Hero />
-        <Services />
-        <WhyPetspace />
         <About />
+        <Services />
         <Testimonials />
+
+        <WhyPetspace />
+
         <FAQ />
         <Contact />
       </main>

@@ -1,0 +1,36 @@
+.header {
+  height: 60px;
+  padding: 16px 0;
+}
+
+.inner {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: block;
+  line-height: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--mantine-color-text);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.link:hover {
+  background-color: var(--mantine-color-gray-0);
+}
+
+.linkLabel {
+  margin-right: 4px;
+}
+
+@media (max-width: 768px) {
+  .link {
+    padding: 8px 10px;
+  }
+}
